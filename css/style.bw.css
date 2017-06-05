@@ -12,15 +12,15 @@ body{
 }
 
 header{
-    background: #35424a;
-    color: #ffffff;
+    background: #f4f4f4;
+    color: #35424a;
     padding-top: 30px;
     min-height: 110px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #35424a 3px solid;
 }
 
 header a{
-    color: #ffffff;
+    color: #949494;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -57,7 +57,7 @@ header nav{
 }
 
 header .current a{
-    color: #e8491d;
+    color: #35424a;
 }
 
 header a:hover{
@@ -72,8 +72,13 @@ header a:hover{
     min-height: 300px;
 }
 
-.container a{
+#showcase .container a{
     color: #ffffff;
+    text-decoration: none;
+}
+
+.container a:hover{
+    text-decoration: underline;
 }
 
 #showcase h1{
@@ -84,19 +89,26 @@ header a:hover{
     font-weight: bold;
 }
 
+#showcase ul{
+    display: inline;
+}
+
 section#information{
-    border-top: #e8491d 3px solid;
-    background-color: #35424a;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
+    border-top: #35424a 3px solid;
+    background-color: #f4f4f4;
+    color: #949494;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+.info{
+    clear: both;
 }
 
 .info a{
     text-decoration: none;
-    color: #ffffff;
+    color: #949494;
 }
 
 .info a:hover{
@@ -107,6 +119,8 @@ section#information{
     float: left;
     width: 33%;
     text-align: center;
+        display: inline;
+
 }
 
 .box ul{
@@ -115,9 +129,10 @@ section#information{
 }
 
 footer{
-    background: #e8491d;
+    background: #35424a;
     color: #ffffff;
     text-align: center;
     font-size: 10px;
     padding: 0;
+    margin: 0;
 }
