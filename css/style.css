@@ -67,7 +67,11 @@ header a:hover{
 #showcase{
     text-align: center;
     font: 15px/1.5 Arial, Helvetica, sans-serif;
-    background: url("../img/showcase_backgroung.jpeg") no-repeat -400px;
+    background: url("../img/showcase_backgroung.jpeg") no-repeat ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     color: #ffffff;
     min-height: 300px;
@@ -96,7 +100,11 @@ header a:hover{
 
 #services{
     text-align: left;
-    background: url("../img/showcase_backgroung.jpeg") no-repeat -400px;
+    background: url("../img/showcase_backgroung.jpeg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     color: #ffffff;
     min-height: 300px;
@@ -133,7 +141,12 @@ header a:hover{
 
 #information{
     border-top: #e8491d 3px solid;
-    background: url("../img/showcase_backgroung.jpeg") no-repeat -400px;
+    background: url("../img/showcase_backgroung.jpeg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
     color: #ffffff;
     display: flex;
     flex-direction: column;
