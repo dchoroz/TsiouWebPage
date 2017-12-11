@@ -118,6 +118,8 @@ header a:hover{
     color: #ffffff;
     min-height: 300px;
     border-bottom: #e8491d 3px solid;
+    display: flex;
+    flex-direction: column;
 }
 
 .container h2{
@@ -163,13 +165,29 @@ header a:hover{
     text-decoration: underline;
 }
 
-.box{
+.box-contact{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.box-contact ul{
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+    text-align: center;
+    margin-top: 200px; 
+}
+
+.box-info{
     float: left;
     width: 33%;
     text-align: center;
 }
 
-.box ul{
+.box-info ul{
     margin: 0;
     padding: 0;
 }
@@ -184,4 +202,5 @@ footer{
 
 footer p{
     margin: 0;
+    padding: 5;
 }
